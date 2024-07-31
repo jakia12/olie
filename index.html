@@ -12,6 +12,17 @@
       crossorigin="anonymous"
     />
     <meta name="robots" content="max-image-preview:large" />
+    <style>
+      .tkn_img {
+        width: 70%;
+      }
+      @media screen and (max-width: 768px) {
+        .tkn_img {
+          width: 100%;
+          margin-bottom: 20px;
+        }
+      }
+    </style>
     <!-- <link
       rel="alternate"
       type="application/rss+xml"
@@ -4856,19 +4867,11 @@
                     >
                       <div class="row" style="text-align: center">
                         <div class="col-md-6">
-                          <img
-                            src="/TKN.png"
-                            alt=""
-                            style="max-width: 70%; width: 100%"
-                          />
+                          <img src="/TKN.png" alt="" class="tkn_img" />
                         </div>
                         <div class="col-md-6">
                           <div>
-                            <img
-                              src="/TKN2.png"
-                              style="width: 100%; max-width: 70%"
-                              alt=""
-                            />
+                            <img src="/TKN2.png" class="tkn_img" alt="" />
                           </div>
                         </div>
                       </div>
